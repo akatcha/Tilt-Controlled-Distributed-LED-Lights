@@ -3,8 +3,10 @@ This is a fun project I build over a few weekends.  I would recommend this proje
 
 ## Code Basics
 Here you will find arduino code (written for NodeMCU) for the:
-    *light-remote: Device code for taking the X,Y,Z axis tilt, converting those values to RGB, and sending to the light-node
-    *light-node: Device code for receiving the RGB values from the light-remote and displaying them in an LED light strip
+
+    1. light-remote: Device code for taking the X,Y,Z axis tilt, converting those values to RGB, and sending to the light-node
+    
+    2.light-node: Device code for receiving the RGB values from the light-remote and displaying them in an LED light strip
 
 Note: The Light-Remote does not need code for the Light-Node and vice-versa.
 
