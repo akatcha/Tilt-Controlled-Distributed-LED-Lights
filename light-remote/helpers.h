@@ -1,0 +1,13 @@
+void setupWifi();
+boolean reconnect();
+void timeSensitiveReconnect();
+void displayToScreen(int x, int y, int z);
+void formatTitle();
+void formatXYZValues(int x, int y, int z);
+void formatRGBValues(int x, int y, int z);
+int convertVectorValueToColorValue(int vectorValue);
+void publishRGBValues(int x, int y, int z);
+void freezeColors();
+void turnOffLights();
+boolean isButtonPressed();
+int santizeSegment(int value);
