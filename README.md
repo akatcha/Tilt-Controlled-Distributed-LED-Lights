@@ -1,14 +1,14 @@
-# H1 Tilt Controlled Distributed LED Lights 
+# Tilt Controlled Distributed LED Lights 
 This is a fun project I build over a few weekends.  I would recommend this project for those who are adventurous and would like to implement a project that uses MQTT.
 
-## H3 Code Basics
+## Code Basics
 Here you will find arduino code (written for NodeMCU) for the:
     *light-remote: Device code for taking the X,Y,Z axis tilt, converting those values to RGB, and sending to the light-node
     *light-node: Device code for receiving the RGB values from the light-remote and displaying them in an LED light strip
 
 Note: The Light-Remote does not need code for the Light-Node and vice-versa.
 
-## H3 Getting Started
+## Getting Started
 These files were created in VSCode with the [platformio extension](https://www.platformio.org).  I did not include most of the overhead from these files as I wanted to keep the code simple.  In the case that you use platformio, remember to install each library individually.
 
 You can easily have this code run within the Arduino IDE, in that case remove the `#include 'Arduino.h'` at the top of the `light-remote.cpp` and `light-node.cpp`.  Remeber to download each of the libraries in the Arduino IDE.
